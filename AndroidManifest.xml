@@ -320,7 +320,8 @@
                   android:label="@string/phoneAppLabel"
                   android:excludeFromRecents="true"
                   android:launchMode="singleInstance"
-                  android:screenOrientation="nosensor"
+                  android:screenOrientation="nosensor">
+        </activity>
        
         <activity android:name="com.android.incallui.InCallCardActivity"
                   android:theme="@android:style/Theme.Translucent.NoTitleBar"
